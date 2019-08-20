@@ -1,7 +1,9 @@
 import React from 'react';
 
 const Grid = () => (
-    <div>teste</div>
+    <div>
+        <h1>Grid Layout</h1>
+    </div>
 );
 
 export default Grid;
