@@ -6,6 +6,8 @@ import Header from './components/header';
 import Flex from './pages/flexbox';
 import Grid from './pages/grid';
 
+import './App.scss';
+
 const App = () => (
     <Router>
       <div className="App">
