@@ -1,7 +1,9 @@
 import React from 'react';
 
 const Flex = () => (
-    <div>teste</div>
+    <div>
+        <h1>Flexbox</h1>
+    </div>
 );
 
 export default Flex;
