@@ -1,7 +1,7 @@
 .App {
   height: 100vh;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 80px 1fr 60px;
 
   nav {
     grid-row: 1;
