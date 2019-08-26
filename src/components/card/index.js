@@ -5,10 +5,9 @@ import './style.scss';
 
 const Card = ({plan}) => (
     <div className="card-item">
-        <pre>{plan}</pre>
         <div className="card-header">
             <p className="featured-tag">Wooza</p>
-            <h2 className="featured-plan">20GB</h2>
+            <h2 className="featured-plan">{plan.internet}</h2>
         </div>
 
         <div className="card-content">
@@ -22,9 +21,9 @@ const Card = ({plan}) => (
             </div>
             <div className="price">
                 <span className="currency">R$</span>
-                <span className="big-price">99</span>
+                <span className="big-price">{plan.price.real}</span>
                 <div className="wrap">
-                    <span className="cents">,99</span>
+                    <span className="cents">,{plan.price.cents}</span>
                     <span className="month">/Mês</span>
                 </div>
             </div>

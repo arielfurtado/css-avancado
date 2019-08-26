@@ -10,10 +10,7 @@ const Header = () => (
         <img src={logo} alt="Logo da Wooza" className="logo"/>
         <ul>
             <li>
-                <Link to="/flexbox">Flexbox</Link>
-            </li>
-            <li>
-                <Link to="/grid">Grid</Link>
+                <Link to="/layout">Layout</Link>
             </li>
         </ul>
     </nav>

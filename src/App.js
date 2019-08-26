@@ -3,8 +3,7 @@ import { BrowserRouter as Router, Route} from 'react-router-dom';
 
 import Header from './components/header/header';
 
-import Flex from './pages/flexbox';
-import Grid from './pages/grid';
+import Layout from './pages/layout';
 
 import './App.scss';
 
@@ -12,8 +11,7 @@ const App = () => (
     <Router>
       <div className="App">
         <Header />
-        <Route exact path="/flexbox" component={Flex} />
-        <Route exact path="/grid" component={Grid} />
+        <Route exact path="/layout" component={Layout} />
       </div>
     </Router>
 );
