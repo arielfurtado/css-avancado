@@ -1,0 +1,13 @@
+h1 {
+    color: red;
+}
+
+.grid {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
