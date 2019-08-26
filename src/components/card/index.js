@@ -3,11 +3,11 @@ import React from "react";
 import './style.scss';
 
 
-const Card = () => (
+const Card = ({plan}) => (
     <div class="card-item">
         <div class="card-header">
             <p>Wooza</p>
-            <h2>20GB</h2>
+            <h2>{plan.internet}</h2>
         </div>
         <div class="card-content">
             <div class="row-benefit">
@@ -16,9 +16,9 @@ const Card = () => (
             </div>
             <div class="price">
                 <span class="currency">R$</span>
-                <span class="big-price">99</span>
+                <span class="big-price">{plan.price.real}</span>
                 <div class="wrap">
-                    <span class="cents">,99</span>
+                    <span class="cents">,{plan.price.cents}</span>
                     <span class="month">/Mês</span>
                 </div>
             </div>
