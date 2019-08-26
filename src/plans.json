@@ -4,20 +4,23 @@
         "price": {
             "real": "49",
             "cents": "99"
-        }
+        },
+        "sku": "DC0010"
     },
     {
         "internet": "20GB",
         "price": {
             "real": "59",
             "cents": "99"
-        }
+        },
+        "sku": "DC0020"
     },
     {
         "internet": "50GB",
         "price": {
             "real": "89",
             "cents": "99"
-        }
+        },
+        "sku": "DC0050"
     }
 ]
