@@ -1,0 +1,23 @@
+[
+    {
+        "internet": "10GB",
+        "price": {
+            "real": "49",
+            "cents": "99"
+        }
+    },
+    {
+        "internet": "20GB",
+        "price": {
+            "real": "59",
+            "cents": "99"
+        }
+    },
+    {
+        "internet": "50GB",
+        "price": {
+            "real": "89",
+            "cents": "99"
+        }
+    }
+]
