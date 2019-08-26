@@ -1,0 +1,28 @@
+.footer {
+    background: #111;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    .wrap {
+        text-align: center;
+    }
+    h4 {
+        font-size: 18px;
+        text-align: center;
+
+        strong {
+            color: #ff0066;
+            display: block;
+            font-size: 14px;
+        }
+    }
+
+    p {
+        font-size: 14px;
+        margin-top: 5px;
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+}
