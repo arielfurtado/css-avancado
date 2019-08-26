@@ -7,11 +7,11 @@ const plans = require('../../plans.json');
 
 const Layout = () => (
     <section className='layout'>
-        <h1>Layout</h1>
+        <h1>Layout com Grid, detalhes com Flex</h1>
         <div className='cards'>
             {
                 plans.map(p => {
-                    return <Card plan={p}/>
+                    return <Card key={p.sku} plan={p}/>
                 })
             }
         </div>
