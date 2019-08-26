@@ -4,26 +4,49 @@ import './style.scss';
 
 
 const Card = ({plan}) => (
-    <div class="card-item">
-        <div class="card-header">
-            <p>Wooza</p>
-            <h2>{plan.internet}</h2>
+    <div className="card-item">
+        <pre>{plan}</pre>
+        <div className="card-header">
+            <p className="featured-tag">Wooza</p>
+            <h2 className="featured-plan">20GB</h2>
         </div>
-        <div class="card-content">
-            <div class="row-benefit">
-                <p>Traga seu número para Wooza</p>
-                <h4><strong>2</strong> de internet</h4>
+
+        <div className="card-content">
+            <div className="row-benefit">
+                <p>Bônus de débito automático</p>
+                <h4><strong>2GB</strong> de internet</h4>
             </div>
-            <div class="price">
-                <span class="currency">R$</span>
-                <span class="big-price">{plan.price.real}</span>
-                <div class="wrap">
-                    <span class="cents">,{plan.price.cents}</span>
-                    <span class="month">/Mês</span>
+            <div className="row-benefit">
+                <p>Bônus de Portabilidade</p>
+                <h4><strong>1GB</strong> de internet</h4>
+            </div>
+            <div className="price">
+                <span className="currency">R$</span>
+                <span className="big-price">99</span>
+                <div className="wrap">
+                    <span className="cents">,99</span>
+                    <span className="month">/Mês</span>
                 </div>
             </div>
         </div>
-        <div class="card-footer"></div>
+
+        <div className="buy-button-wrap">
+            <button className="buy-button"> Comprar</button>
+        </div>
+        <div className="card-footer">
+            <div className="row-featured-benefit">
+                <p>Ligações <strong>Ilimitadas</strong></p>
+            </div>
+            <div className="row-featured-benefit">
+                <p>Apps ilimitados</p>
+                <ul>
+                    <li><i className="icon icon-whatsapp"></i></li>
+                    <li><i className="icon icon-instagram"></i></li>
+                    <li><i className="icon icon-twitter"></i></li>
+                    <li><i className="icon icon-facebook"></i></li>
+                </ul>
+            </div>
+        </div>
     </div>
 );
 

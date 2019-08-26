@@ -4,12 +4,12 @@ import Card from '../../components/card'
 import './style.scss';
 
 const Flex = () => (
-    <div>
-        <h1>Flexbox</h1>
-        <div class="cards">
+    <section className='Flex'>
+        <h1>Flexbox Layout</h1>
+        <div className='cards'>
             <Card />
         </div>
-    </div>
+    </section>
 );
 
 export default Flex;

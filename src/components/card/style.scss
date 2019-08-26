@@ -1,0 +1,146 @@
+.card-item {
+    max-width: 320px;
+    .card-header {
+        background: #003399;
+        position: relative;
+        .featured-plan {
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 28px;
+        }
+        .featured-tag {
+            background: #ff0066;
+            color: white;
+            position: absolute;
+            top: -10px;
+            width: 60%;
+            transform: translateX(-50%);
+            left: 50%;
+            border-radius: 15px;
+            text-align: center;
+            font-weight: bold;
+        }
+    }
+    .card-content {
+        background: #003399;
+        border-top: 1px dashed white;
+        padding: 15px 0;
+
+        .row-benefit {
+            color: white;
+            padding-top: 10px;
+
+            &:first-child {
+                padding-top: 0;
+                &:before {
+                    content: none;
+                }
+            }
+            &:before {
+                content: '';
+                width: 15px;
+                height: 1px;
+                background: white;
+                display: block;
+                margin: 0 auto 10px;
+            }
+            p {
+                text-align: center;
+                font-size: 14px;
+            }
+
+            h4 {
+                text-align: center;
+                font-size: 18px;
+            }
+        }
+
+        .price {
+            color: white;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px 0;
+            border-top: 1px dashed white;
+            margin-top: 15px;
+            .currency{
+                font-size: 28px;
+            }
+            .big-price {
+                font-size: 40px;
+            }
+            .wrap{
+                display: flex;
+                flex-direction: column;
+            }
+
+        }
+    }
+    .buy-button-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 70px;
+        .buy-button {
+            background: #00cc00;
+            border-radius: 50px;
+            border: 0;
+            color: white;
+            font-weight: bold;
+            padding: 10px;
+            text-align: center;
+            text-transform: uppercase;
+            width: 80%;
+            cursor: pointer;
+            text-transform: uppercase;
+            transition: all 0.2s;
+            
+            &:hover {
+                background: #1da21d;
+            }
+        }
+    }
+    .card-footer {
+        padding: 10px 0;
+        .row-featured-benefit{
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 10px;
+            ul {
+                list-style: none;
+                display: flex; 
+                align-items: center;
+                justify-content: center;
+                margin-top: 5px;
+                li {
+                    margin-left: 5px;
+                    &:first-child {
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+    }
+    .icon {
+        width: 24px;
+        height: 24px;
+        display: block;
+        border-radius: 5px;
+        &-whatsapp {
+            background: url('../../images/icon-whatsapp.png');
+        }
+        &-facebook {
+            background: url('../../images/icon-facebook.png');
+        }
+        &-instagram {
+            background: url('../../images/icon-instagram.png');
+        }
+        &-twitter {
+            background: url('../../images/icon-twitter.png');
+        }
+    }
+}
