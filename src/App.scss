@@ -1,3 +1,21 @@
+.App {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+
+  nav {
+    grid-row: 1;
+  }
+
+  section {
+    grid-row: 2;
+  }
+
+  footer {
+    grid-row: 3;
+  }
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
